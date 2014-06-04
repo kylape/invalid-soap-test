@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:sayHelloResponse xmlns:ns2="http://gss.redhat.com/">
+      <return>Hello, Kyle!</return>
+      <return2>This will make the client fail</return2>
+    </ns2:sayHelloResponse>
+  </soap:Body>
+</soap:Envelope>
